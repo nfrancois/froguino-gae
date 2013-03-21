@@ -19,6 +19,6 @@
 
 
     <welcome-file-list>
-        <welcome-file>froguino.jsp</welcome-file>
+        <welcome-file>froguino.html</welcome-file>
     </welcome-file-list>
 </web-app>
