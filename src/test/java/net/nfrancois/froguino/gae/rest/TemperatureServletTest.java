@@ -34,6 +34,7 @@ public class TemperatureServletTest {
     @Test
     public void should_not_give_temperature() throws IOException, ServletException {
         // Given
+        TemperatureServlet.actualTemperature = null;
         HttpServletRequest request = mock(HttpServletRequest.class);
         HttpServletResponse response = mock(HttpServletResponse.class);
 
